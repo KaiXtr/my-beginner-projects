@@ -35,7 +35,7 @@ er=0
 mode='0'
 tempo=0
 pastime=0
-folder='storage/emulated/0/Trivia/'
+folder=''
 
 fileopen=open(folder+'UserData.db','r')
 while True:

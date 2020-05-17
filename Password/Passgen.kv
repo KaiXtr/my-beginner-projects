@@ -1,0 +1,26 @@
+<Passgen>
+	cols:2
+	display: lb
+	display: cen
+
+	Label:
+		id: lb
+		text: ''
+	CheckBox:
+		text: 'Symbols'
+	CheckBox:
+	TextInput:
+		id: cen
+		multiline: False
+	Button:
+		text:'Add'
+		on_release: root.add()
+	Button:
+		text:'Clear'
+		on_release: root.cle()
+	Button:
+		text:'Copy'
+		on_release: root.cop()
+	Button:
+		text:'Generate'
+		on_release: root.generate()
