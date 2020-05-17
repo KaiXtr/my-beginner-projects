@@ -1,0 +1,41 @@
+?Qual foi o ano em que Dom Pedro I gritou 'Indepedência ou Morte'?
+>1822
+X1500
+X1888
+X1650
+!Esse acontecimento ocorreu no século XIX
+-
+?Qual foi o nome da Política que revezava a presidência do Brasil entre políticos de 2 estados?
+>Café com Leite
+XGoiabada e Queijo
+XOliguárquicos e Aristocratas
+XRepublicanos e Democratas
+!Tem o nome de uma comida de cada estado
+-
+?Onde Pedro Álvares Cabral desembarcou suas Caravelas?
+>Porto Seguro
+XSalvador
+XRio De Janeiro
+XMaceió
+!Atualmente esse local se situa no estado da Bahia
+-
+?Qual presidente assumiu depois do Marechal Deodora da Fonseca?
+>Floriano Peixoto
+XJoão Goulart
+XJuscelino Kubitschek
+XGetúlio Vargas
+!Também era do serviço militar
+-
+?Qual o nome da Lei que aboliu a escravidão no Brasil e quem a decretou?
+>Lei Áurea - Princesa Isabel
+XLei Seca - Maria da Penha
+XLei Maria da Penha - Maria da penha
+XLei Áurea - Princesa Carlota Joaquina
+!Foi decretada durante o reinado de Dom Pedro II
+-
+?Qual foi a primeira grande riqueza que aumentou os lucros de Portugal no Brasil?
+>Cana-de-Açúcar
+XCafé
+XLátex
+XPau-Brasil
+!Agradeça a isso por melhorar suas manhãs do dia a dia

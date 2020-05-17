@@ -1,0 +1,91 @@
+?Qual é o sexto planeta do sistema solar?
+>Saturno
+XJúpiter
+XUrano
+XMarte
+!É o segundo maior planeta do Sistema Solar
+-
+?Qual é o nome da classe em que os Carangueijos pertencem?
+>Crustáceos
+XAracnídeos
+XMoluscos
+XAnfíbios
+!Os Aracnídeos, Crustáceos e Insetos se diferem pelo número de patas
+-
+?Qual é o nome do elemento químico Na?
+>Sódio
+XPotássio
+XCálcio
+XNióbio
+!Esse elemento se encontra no sal de cozinha
+-
+?Qual é a fórmula física usada para calcular a Força?
+>m.a
+Xv.t
+Xm.v
+Xv.t
+!Um de seus números usa a medida metro por segundo ao quadrado
+-
+?Na equação 2X+5=23, qual é o valor de X?
+>9
+X18
+X10
+X36
+!X=(23-5)/2
+-
+?Quantos estágios tem os dentes do ser humano?
+>2
+X4
+X1
+X3
+!Um dos estágios tem o nome de Dentes de Leite
+-
+?Qual desses animais fazem parte da savana?
+>Hiena
+XCoiote
+XOrangotango
+XTigre
+!A savana é um bioma africano que aparece muito no filme O Rei Leão
+-
+?Qual é o nome que se dá a um pedaço de rocha que cai na terra?
+>Meteorito
+XMeteoro
+XCometa
+XAsteroide
+!Seu nome deriva de Meteoro
+-
+?Em que período os dinossauros habitaram na terra?
+>Cretáceo
+XJurássico
+XPaleozoico
+XMezozoico
+!Não é o período Jurássico
+-
+?Qual a organela citoplasmática responsável pela produção de ATP?
+>Mitocôndria
+XMembrana Plasmática
+XNúcleo
+XFagócito
+!Ela se origina de uma bactéria que foi digerida pela célula
+-
+?O Pâncreas faz parte de qual sistema do corpo humano?
+>Sistema Digestivo
+XSistema Urinário
+XSistema Cardiovascular
+XSistema Respiratório
+!Ele serve para introduzir o Suco gástrico no estômago
+-
+?Qual ônibus espacial explodiu durante o seu lançamento?
+>Challenger
+XColumbia
+XVoyager
+XCarolina
+!Começa com C
+-
+?A Água se encontra em qual estado físico em 20°C?
+>Líquido
+XGasoso
+XSólido
+XExiste outro?
+!A Temperatura ambiente no brasil é entre 20°C e 40°C
+-

@@ -1,0 +1,41 @@
+?Qual desses livros foi escrito por Lewis Carrol?
+>Alice no País das Maravilhas
+XO Mágico de Oz
+XAs Crônicas De Nárnia
+XO Gato de Botas
+!Nessa história aparece o personagem Chapeleiro Maluco
+-
+?Qual dessas sagas de livros ganhou uma adaptação para a Netflix?
+>Desventuras em Série
+XHarry Potter
+XPercy Jackson
+XSherlock Holmes
+!Um dos personagens foi interpretado pelo comediante Jim Carrey
+-
+?Qual é o nome da casa na qual Harry Potter foi selecionado em Hogwarts?
+>Grifinória
+XCorvinal
+XLufa-Lufa
+XSonserina
+!Sonserina é a casa da maioria dos antagonistas
+-
+?Quem foi o escritor de Vinte Mil Léguas Submarinas?
+>Júlio Verne
+XIrmãos Grimm
+XJ.J. Tolkien
+XEsopo
+!Foi o mesmo que escreveu Da Terra á lua, Viagem ao Centro da Terra e Volta ao Mundo em 80 dias
+-
+?Qual foi o primeiro habitante fora do asteroide B12 que o Pequeno Príncipe encontrou?
+>O Contador de Estrelas
+XO Beberrão
+XA Rosa
+XO Cartógrafo
+!Dois deles disseram que explorar não era a tarefa deles, mas de outras pessoas
+-
+?"O Amor é fogo que arde sem se ver"...
+>É ferida que dói e não se sente
+XÉ uma dor que desatina a doer
+XÉ um contentar-se de contente
+XO Amor é bom, não quer o mal
+!É o trecho mais famoso do épico Os Lusíadas
