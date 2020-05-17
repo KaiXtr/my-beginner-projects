@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {border-collapse:collapse;}
+td, th {border: 1px solid #aaa;}
+td {background: #ddf;}
+th, tr:nth-child(2n+1) td {background: #dde;}
+</style>
+</head>
+<body>
+
+<table>
+<tr><th>Group</th><th>Index</th><th>MIDI Instrument</th><th>SNES Game</th></tr>
+<tr><td>Piano</td><td>0</td><td>Acoustic Grand Piano</td><td>Super Mario World</td></tr>
+<tr><td></td><td>1</td><td>Bright Acoustic Piano</td><td>Super Tetris 3</td></tr>
+<tr><td></td><td>2</td><td>Electric Grand Piano</td><td>Chrono Trigger</td></tr>
+<tr><td></td><td>3</td><td>Honky-tonk Piano</td><td>Super Mario RPG</td></tr>
+<tr><td></td><td>4</td><td>Rhodes Piano</td><td>A Link to the Past</td></tr>
+<tr><td></td><td>5</td><td>Chorused Piano</td><td>Contra III</td></tr>
+<tr><td></td><td>6</td><td>Harpsichord</td><td>Lemmings</td></tr>
+<tr><td>Chromatic Percussion</td><td>7</td><td>Clavinet</td><td>Lemmings</td></tr>
+<tr><td></td><td>8</td><td>Celesta</td><td>Mario Paint</td></tr>
+<tr><td></td><td>9</td><td>Glockenspiel</td><td>Donkey Kong Country</td></tr>
+<tr><td></td><td>10</td><td>Music Box</td><td>Chrono Trigger</td></tr>
+<tr><td></td><td>11</td><td>Vibraphone</td><td>Mario Paint</td></tr>
+<tr><td></td><td>12</td><td>Marimba</td><td>Super Mario RPG</td></tr>
+<tr><td></td><td>13</td><td>Xylophone</td><td>Yoshi's Cookie</td></tr>
+<tr><td></td><td>14</td><td>Tubular Bells</td><td>Super Mario RPG</td></tr>
+<tr><td>Organ</td><td>15</td><td>Dulcimer</td><td>Super Mario World</td></tr>
+<tr><td></td><td>16</td><td>Hammond Organ</td><td>Tetris Attack</td></tr>
+<tr><td></td><td>17</td><td>Percussive Organ</td><td>Super Tetris 3</td></tr>
+<tr><td></td><td>18</td><td>Rock Organ</td><td>Final Fantasy IV</td></tr>
+<tr><td></td><td>19</td><td>Church Organ</td><td>Chrono Trigger</td></tr>
+<tr><td></td><td>20</td><td>Reed Organ</td><td>Megaman X</td></tr>
+<tr><td></td><td>21</td><td>Accordion</td><td>Chrono Trigger</td></tr>
+<tr><td></td><td>22</td><td>Harmonica</td><td>Secret of Mana</td></tr>
+<tr><td></td><td>23</td><td>Tango Accordion</td><td>Lemmings</td></tr>
+<tr><td>Guitar</td><td>24</td><td>Acoustic Guitar (nylon)</td><td>Earthbound</td></tr>
+<tr><td></td><td>25</td><td>Acoustic Guitar (steel)</td><td>Mario Paint</td></tr>
+<tr><td></td><td>26</td><td>Electric Guitar (jazz)</td><td>Super Mario Kart</td></tr>
+<tr><td></td><td>27</td><td>Electric Guitar (clean)</td><td>Kirby's Dream Land 3</td></tr>
+<tr><td></td><td>28</td><td>Electric Guitar (muted)</td><td>Final Fantasy III</td></tr>
+<tr><td></td><td>29</td><td>Overdriven Guitar</td><td>Super Mario World</td></tr>
+<tr><td></td><td>30</td><td>Distortion Guitar</td><td>Yoshi's Island</td></tr>
+<tr><td></td><td>31</td><td>Guitar Harmonics</td><td>Donkey Kong Country 2</td></tr>
+<tr><td>Bass</td><td>32</td><td>Acoustic Bass</td><td>Lemmings</td></tr>
+<tr><td></td><td>33</td><td>Electric Bass (finger)</td><td>Secret of Mana</td></tr>
+<tr><td></td><td>34</td><td>Electric Bass (pick)</td><td>Earthbound</td></tr>
+<tr><td></td><td>35</td><td>Fretless Bass</td><td>Megaman X</td></tr>
+<tr><td></td><td>36</td><td>Slap Bass 1</td><td>Tetris Attack</td></tr>
+<tr><td></td><td>37</td><td>Slap Bass 2</td><td>Super Mario All-Stars</td></tr>
+<tr><td></td><td>38</td><td>Synth Bass 1</td><td>Super Mario Kart</td></tr>
+<tr><td></td><td>39</td><td>Synth Bass 2</td><td>Dr. Mario</td></tr>
+<tr><td>Strings</td><td>40</td><td>Violin</td><td>Donkey Kong Country 2</td></tr>
+<tr><td></td><td>41</td><td>Viola</td><td>Final Fantasy III</td></tr>
+<tr><td></td><td>42</td><td>Cello</td><td>Megaman X</td></tr>
+<tr><td></td><td>43</td><td>Contrabass</td><td>Super Metroid</td></tr>
+<tr><td></td><td>44</td><td>Tremolo Strings</td><td>Yoshi's Island</td></tr>
+<tr><td></td><td>45</td><td>Pizzicato Strings</td><td>Super Mario RPG</td></tr>
+<tr><td></td><td>46</td><td>Orchestral Harp</td><td>Final Fantasy IV</td></tr>
+<tr><td></td><td>47</td><td>Timpani</td><td>Super Mario All-Stars</td></tr>
+<tr><td>Ensemble</td><td>48</td><td>String Ensemble 1</td><td>Secret of Mana</td></tr>
+<tr><td></td><td>49</td><td>String Ensemble 2</td><td>Donkey Kong Country 2</td></tr>
+<tr><td></td><td>50</td><td>Synth Strings 1</td><td>Star Fox</td></tr>
+<tr><td></td><td>51</td><td>Synth Strings 2</td><td>Earthbound</td></tr>
+<tr><td></td><td>52</td><td>Choir Aahs</td><td>Super Metroid</td></tr>
+<tr><td></td><td>53</td><td>Voice Oohs</td><td>Secret of Mana</td></tr>
+<tr><td></td><td>54</td><td>Synth Voice</td><td>Kirby Super Star</td></tr>
+<tr><td></td><td>55</td><td>Orchestra Hit</td><td>Super Mario World</td></tr>
+<tr><td>Brass</td><td>56</td><td>Trumpet</td><td>Tetris Attack</td></tr>
+<tr><td></td><td>57</td><td>Trombone</td><td>Donkey Kong Country 2</td></tr>
+<tr><td></td><td>58</td><td>Tuba</td><td>Donkey Kong Country 2</td></tr>
+<tr><td></td><td>59</td><td>Muted Trumpet</td><td>Donkey Kong Country 2</td></tr>
+<tr><td></td><td>60</td><td>French Horn</td><td>Yoshi's Cookie</td></tr>
+<tr><td></td><td>61</td><td>Brass Section</td><td>Yoshi's Island</td></tr>
+<tr><td></td><td>62</td><td>Synth Brass 1</td><td>Super Mario RPG</td></tr>
+<tr><td></td><td>63</td><td>Synth Brass 2</td><td>Star Fox</td></tr>
+<tr><td>Reed</td><td>64</td><td>Soprano Sax</td><td>Secret of Mana</td></tr>
+<tr><td></td><td>65</td><td>Alto Sax</td><td>Donkey Kong Country 2</td></tr>
+<tr><td></td><td>66</td><td>Tenor Sax</td><td>Earthbound</td></tr>
+<tr><td></td><td>67</td><td>Baritone Sax</td><td>Donkey Kong Country 2</td></tr>
+<tr><td></td><td>68</td><td>Oboe</td><td>Mario Paint</td></tr>
+<tr><td></td><td>69</td><td>English Horn</td><td>Final Fantasy III</td></tr>
+<tr><td></td><td>70</td><td>Bassoon</td><td>Goof Troop</td></tr>
+<tr><td></td><td>71</td><td>Clarinet</td><td>Kirby's Dream Land 3</td></tr>
+<tr><td>Pipe</td><td>72</td><td>Piccolo</td><td>Pac-Attack</td></tr>
+<tr><td></td><td>73</td><td>Flute</td><td>Chrono Trigger</td></tr>
+<tr><td></td><td>74</td><td>Recorder</td><td>Chrono Trigger</td></tr>
+<tr><td></td><td>75</td><td>Pan Flute</td><td>Yoshi's Island</td></tr>
+<tr><td></td><td>76</td><td>Bottle Blow</td><td>Kirby's Dream Land 3</td></tr>
+<tr><td></td><td>77</td><td>Shakuhachi</td><td>Final Fantasy III</td></tr>
+<tr><td></td><td>78</td><td>Whistle</td><td>Earthbound</td></tr>
+<tr><td></td><td>79</td><td>Ocarina</td><td>Super Metroid</td></tr>
+<tr><td>Synth Lead</td><td>80</td><td>Lead 1 (square)</td><td>Kirby Super Star</td></tr>
+<tr><td></td><td>81</td><td>Lead 2 (sawtooth)</td><td>NBA Jam</td></tr>
+<tr><td></td><td>82</td><td>Lead 3 (caliope lead)</td><td>Super Mario RPG</td></tr>
+<tr><td></td><td>83</td><td>Lead 4 (chiff lead)</td><td>Kirby's Dream Land 3</td></tr>
+<tr><td></td><td>84</td><td>Lead 5 (charang)</td><td>Yoshi's Cookie</td></tr>
+<tr><td></td><td>85</td><td>Lead 6 (voice)</td><td>Super Metroid</td></tr>
+<tr><td></td><td>86</td><td>Lead 7 (fifths)</td><td>Earthbound</td></tr>
+<tr><td></td><td>87</td><td>Lead 8 (brass + lead)</td><td>Super Mario Kart</td></tr>
+<tr><td>Synth Pad</td><td>88</td><td>Pad 1 (new age)</td><td>A Link to the Past</td></tr>
+<tr><td></td><td>89</td><td>Pad 2 (warm)</td><td>Star Fox</td></tr>
+<tr><td></td><td>90</td><td>Pad 3 (polysynth)</td><td>Super Tetris 3</td></tr>
+<tr><td></td><td>91</td><td>Pad 4 (choir)</td><td>Kirby's Dream Land 3</td></tr>
+<tr><td></td><td>92</td><td>Pad 5 (bowed)</td><td>Super Castlevania IV</td></tr>
+<tr><td></td><td>93</td><td>Pad 6 (metallic)</td><td>Donkey Kong Country 3</td></tr>
+<tr><td></td><td>94</td><td>Pad 7 (halo)</td><td>Kirby's Dream Land 3</td></tr>
+<tr><td></td><td>95</td><td>Pad 8 (sweep)</td><td>Final Fantasy III</td></tr>
+<tr><td>Synth Effects</td><td>96</td><td>FX 1 (rain)</td><td>Earthbound</td></tr>
+<tr><td></td><td>97</td><td>FX 2 (soundtrack)</td><td>Chrono Trigger</td></tr>
+<tr><td></td><td>98</td><td>FX 3 (crystal)</td><td>Mario Paint</td></tr>
+<tr><td></td><td>99</td><td>FX 4 (atmosphere)</td><td>Kirby Super Star</td></tr>
+<tr><td></td><td>100</td><td>FX 5 (brightness)</td><td>Super Mario RPG</td></tr>
+<tr><td></td><td>101</td><td>FX 6 (goblins)</td><td>Final Fantasy III</td></tr>
+<tr><td></td><td>102</td><td>FX 7 (echoes)</td><td>Super Mario RPG</td></tr>
+<tr><td></td><td>103</td><td>FX 8 (sci-fi)</td><td>F-Zero</td></tr>
+<tr><td>Ethnic</td><td>104</td><td>Sitar</td><td>Earthbound</td></tr>
+<tr><td></td><td>105</td><td>Banjo</td><td>Earthbound</td></tr>
+<tr><td></td><td>106</td><td>Shamisen</td><td>Donkey Kong Country 2</td></tr>
+<tr><td></td><td>107</td><td>Koto</td><td>Super Tetris 3</td></tr>
+<tr><td></td><td>108</td><td>Kalimba</td><td>Q-Bert 3</td></tr>
+<tr><td></td><td>109</td><td>Bagpipe</td><td>Pac-Attack</td></tr>
+<tr><td></td><td>110</td><td>Fiddle</td><td>Zombies Ate My Neighbors</td></tr>
+<tr><td></td><td>111</td><td>Shanai</td><td>Aladdin</td></tr>
+<tr><td>Percussive</td><td>112</td><td>Tinkle Bell</td><td>Donkey Kong Country</td></tr>
+<tr><td></td><td>113</td><td>Agogo</td><td>Final Fantasy IV</td></tr>
+<tr><td></td><td>114</td><td>Steel Drums</td><td>Super Mario World</td></tr>
+<tr><td></td><td>115</td><td>Woodblock</td><td>Mario Paint</td></tr>
+<tr><td></td><td>116</td><td>Taiko Drum</td><td>Final Fantasy III</td></tr>
+<tr><td></td><td>117</td><td>Melodic Tom</td><td>Contra III</td></tr>
+<tr><td></td><td>118</td><td>Synth Drum</td><td>Yoshi's Island</td></tr>
+<tr><td></td><td>119</td><td>Reverse Cymbal</td><td>Super Mario RPG</td></tr>
+<tr><td>Sound Effects</td><td>120</td><td>Guitar Fret Noise</td><td>Super Metroid</td></tr>
+<tr><td></td><td>121</td><td>Breath Noise</td><td>Donkey Kong Country 3</td></tr>
+<tr><td></td><td>122</td><td>Seashore</td><td>Yoshi's Island</td></tr>
+<tr><td></td><td>123</td><td>Bird Tweet</td><td>Earthbound</td></tr>
+<tr><td></td><td>124</td><td>Telephone Ring</td><td>Earthbound</td></tr>
+<tr><td></td><td>125</td><td>Helecopter</td><td>Super Mario All-Stars</td></tr>
+<tr><td></td><td>126</td><td>Applause</td><td>Mario Paint</td></tr>
+<tr><td></td><td>127</td><td>Gunshot</td><td>Super Mario All-Stars</td></tr>
+</table>
+<br />
+<table>
+<tr><th>Group</th><th>Index</th><th>MIDI Instrument</th><th>SNES Game</th></tr>
+<tr><td>Percussion</td><td>26</td><td><em>"Nintendo!"</em></td><td>Tetris Attack</td></tr>
+<tr><td></td><td>27</td><td>High Q</td><td>Dr. Mario</td></tr>
+<tr><td></td><td>28</td><td>Slap</td><td>Super Mario World</td></tr>
+<tr><td></td><td>29</td><td>Scratch 1</td><td>Mario Paint</td></tr>
+<tr><td></td><td>30</td><td>Scratch 2</td><td>Mario Paint</td></tr>
+<tr><td></td><td>31</td><td>Sticks</td><td>NBA Jam</td></tr>
+<tr><td></td><td>32</td><td>Square</td><td>Super Tetris 2</td></tr>
+<tr><td></td><td>33</td><td>Metronome 1</td><td>Earthbound</td></tr>
+<tr><td></td><td>34</td><td>Metronome 2</td><td>Earthbound</td></tr>
+<tr><td></td><td>35</td><td>Acoustic Bass Drum</td><td>Mario Paint</td></tr>
+<tr><td></td><td>36</td><td>Bass Drum 1</td><td>Kirby's Dream Land 3</td></tr>
+<tr><td></td><td>37</td><td>Side Stick</td><td>Super Mario RPG</td></tr>
+<tr><td></td><td>38</td><td>Acoustic Snare</td><td>Super Mario All-Stars</td></tr>
+<tr><td></td><td>39</td><td>Hand Clap</td><td>Tetris Attack</td></tr>
+<tr><td></td><td>40</td><td>Electric Snare</td><td>Super Mario All-Stars</td></tr>
+<tr><td></td><td>41</td><td>Low Floor Tom</td><td>Megaman X</td></tr>
+<tr><td></td><td>42</td><td>Closed Hi-Hat</td><td>Donkey Kong Country</td></tr>
+<tr><td></td><td>43</td><td>High Floor Tom</td><td>Megaman X</td></tr>
+<tr><td></td><td>44</td><td>Pedal Hi-Hat</td><td>Donkey Kong Country</td></tr>
+<tr><td></td><td>45</td><td>Low Tom</td><td>Megaman X</td></tr>
+<tr><td></td><td>46</td><td>Open Hi-Hat</td><td>Donkey Kong Country</td></tr>
+<tr><td></td><td>47</td><td>Low-Mid Tom</td><td>Megaman X</td></tr>
+<tr><td></td><td>48</td><td>Hi-Mid Tom</td><td>Megaman X</td></tr>
+<tr><td></td><td>49</td><td>Crash Cymbal 1</td><td>Super Mario RPG</td></tr>
+<tr><td></td><td>50</td><td>High Tom</td><td>Megaman X</td></tr>
+<tr><td></td><td>51</td><td>Ride Cymbal 1</td><td>Donkey Kong Country 3</td></tr>
+<tr><td></td><td>52</td><td>Chinese Cymbal</td><td>Super Mario RPG</td></tr>
+<tr><td></td><td>53</td><td>Ride Bell</td><td>Donkey Kong Country</td></tr>
+<tr><td></td><td>54</td><td>Tambourine</td><td>NBA Jam</td></tr>
+<tr><td></td><td>55</td><td>Splash Cymbal</td><td>Earthbound</td></tr>
+<tr><td></td><td>56</td><td>Cowbell</td><td>Yoshi's Island</td></tr>
+<tr><td></td><td>57</td><td>Crash Cymbal 2</td><td>Super Mario RPG</td></tr>
+<tr><td></td><td>58</td><td>Vibraslap</td><td>Lemmings</td></tr>
+<tr><td></td><td>59</td><td>Ride Cymbal 2</td><td>Donkey Kong Country 3</td></tr>
+<tr><td></td><td>60</td><td>Hi Bongo</td><td>Super Mario World</td></tr>
+<tr><td></td><td>61</td><td>Low Bongo</td><td>Super Mario World</td></tr>
+<tr><td></td><td>62</td><td>Mute Hi Conga</td><td>Super Mario World</td></tr>
+<tr><td></td><td>63</td><td>Open Hi Conga</td><td>Super Mario World</td></tr>
+<tr><td></td><td>64</td><td>Low Conga</td><td>Super Mario World</td></tr>
+<tr><td></td><td>65</td><td>High Timbale</td><td>Super Mario Kart</td></tr>
+<tr><td></td><td>66</td><td>Low Timbale</td><td>Super Mario Kart</td></tr>
+<tr><td></td><td>67</td><td>High Agogo</td><td>Final Fantasy IV</td></tr>
+<tr><td></td><td>68</td><td>Low Agogo</td><td>Final Fantasy IV</td></tr>
+<tr><td></td><td>69</td><td>Cabasa</td><td>Kirby's Dream Land 3</td></tr>
+<tr><td></td><td>70</td><td>Maracas</td><td>Kirby's Dream Land 3</td></tr>
+<tr><td></td><td>71</td><td>Short Whistle</td><td>NBA Jam</td></tr>
+<tr><td></td><td>72</td><td>Long Whistle</td><td>NBA Jam</td></tr>
+<tr><td></td><td>73</td><td>Short Guiro</td><td>Chrono Trigger</td></tr>
+<tr><td></td><td>74</td><td>Long Guiro</td><td>Chrono Trigger</td></tr>
+<tr><td></td><td>75</td><td>Claves</td><td>Final Fantasy III</td></tr>
+<tr><td></td><td>76</td><td>Hi Wood Block</td><td>Mario Paint</td></tr>
+<tr><td></td><td>77</td><td>Low Wood Block</td><td>Mario Paint</td></tr>
+<tr><td></td><td>78</td><td>Mute Cuica</td><td>Mario Paint</td></tr>
+<tr><td></td><td>79</td><td>Open Cuica</td><td>Mario Paint</td></tr>
+<tr><td></td><td>80</td><td>Mute Triangle</td><td>Donkey Kong Country</td></tr>
+<tr><td></td><td>81</td><td>Open Triangle</td><td>Donkey Kong Country</td></tr>
+<tr><td></td><td>82</td><td>Shaker</td><td>Kirby's Dream Land 3</td></tr>
+<tr><td></td><td>83</td><td>Jingle Bell</td><td>Super Metroid</td></tr>
+<tr><td></td><td>84</td><td>Bell Tree</td><td>Mario Paint</td></tr>
+<tr><td></td><td>85</td><td>Castanets</td><td>Secret of Mana</td></tr>
+<tr><td></td><td>86</td><td>Mute Surdo</td><td>Tetris Attack</td></tr>
+<tr><td></td><td>87</td><td>Open Surdo</td><td>Tetris Attack</td></tr>
+<tr><td></td><td>88</td><td><em>"BOOM SHAKALAKA!"</em></td><td>NBA Jam</td></tr>
+</table>
+<br />
+<table>
+<tr><th>SNES Game</th><th>Total Samples Used</th><th>Instrument Samples</th><th>Percussion Samples</th></tr>
+<tr><td>Mario Paint</td><td>15</td><td>7</td><td>8</td></tr>
+<tr><td>Earthbound</td><td>14</td><td>11</td><td>3</td></tr>
+<tr><td>Super Mario RPG</td><td>13</td><td>9</td><td>4</td></tr>
+<tr><td>Super Mario World</td><td>11</td><td>5</td><td>6</td></tr>
+<tr><td>Kirby's Dream Land 3</td><td>10</td><td>6</td><td>4</td></tr>
+<tr><td>Donkey Kong Country 2</td><td>9</td><td>9</td><td>0</td></tr>
+<tr><td>Megaman X</td><td>9</td><td>3</td><td>6</td></tr>
+<tr><td>Chrono Trigger</td><td>9</td><td>7</td><td>2</td></tr>
+<tr><td>Final Fantasy III</td><td>8</td><td>7</td><td>1</td></tr>
+<tr><td>Donkey Kong Country</td><td>8</td><td>2</td><td>6</td></tr>
+<tr><td>Yoshi's Island</td><td>7</td><td>6</td><td>1</td></tr>
+<tr><td>Tetris Attack</td><td>7</td><td>3</td><td>4</td></tr>
+<tr><td>NBA Jam</td><td>6</td><td>1</td><td>5</td></tr>
+<tr><td>Super Metroid</td><td>6</td><td>5</td><td>1</td></tr>
+<tr><td>Super Mario All-stars</td><td>6</td><td>4</td><td>2</td></tr>
+<tr><td>Secret of Mana</td><td>6</td><td>5</td><td>1</td></tr>
+<tr><td>Lemmings</td><td>5</td><td>4</td><td>1</td></tr>
+<tr><td>Super Mario Kart</td><td>5</td><td>3</td><td>2</td></tr>
+<tr><td>Final Fantasy IV</td><td>5</td><td>3</td><td>2</td></tr>
+<tr><td>Super Tetris 3</td><td>4</td><td>4</td><td>0</td></tr>
+<tr><td>Donkey Kong Country 3</td><td>4</td><td>2</td><td>2</td></tr>
+<tr><td>Kirby Super Star</td><td>3</td><td>3</td><td>0</td></tr>
+<tr><td>Star Fox</td><td>3</td><td>3</td><td>0</td></tr>
+<tr><td>Yoshi's Cookie</td><td>3</td><td>3</td><td>0</td></tr>
+<tr><td>Contra III</td><td>2</td><td>2</td><td>0</td></tr>
+<tr><td>A Link to the Past</td><td>2</td><td>2</td><td>0</td></tr>
+<tr><td>Pac-Attack</td><td>2</td><td>2</td><td>0</td></tr>
+<tr><td>Dr. Mario</td><td>2</td><td>1</td><td>1</td></tr>
+<tr><td>Aladdin</td><td>1</td><td>1</td><td>0</td></tr>
+<tr><td>F-Zero</td><td>1</td><td>1</td><td>0</td></tr>
+<tr><td>Goof Troop</td><td>1</td><td>1</td><td>0</td></tr>
+<tr><td>Q-bert 3</td><td>1</td><td>1</td><td>0</td></tr>
+<tr><td>Super Castlevania IV</td><td>1</td><td>1</td><td>0</td></tr>
+<tr><td>Zombies Ate My Neighbors</td><td>1</td><td>1</td><td>0</td></tr>
+<tr><td>Super Tetris 2</td><td>1</td><td>0</td><td>1</td></tr>
+</table>
+
+</body>
+</html>

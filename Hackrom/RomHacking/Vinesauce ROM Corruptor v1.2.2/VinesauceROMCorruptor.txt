@@ -1,0 +1,7 @@
+textBox_RomDirectory.Text=C:\Users\Kai_Xtr\Documents
+textBox_SaveLocation.Text=C:\CorruptedROM.rom
+textBox_EmulatorToRun.Text=
+SettingSaveDirectory=C:\Users\Kai_Xtr\Downloads\Vinesauce ROM Corruptor v1.2.2
+HotkeyEnabled=False
+Hotkey=Space
+HotkeyAction=AddStart

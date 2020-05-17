@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE settings SYSTEM "settings.dtd">
+<settings>
+  <property key="locale" value="pt_BR"/>
+  <property key="viewStatusBar" value="true"/>
+  <property key="viewToolBar" value="true"/>
+  <property key="maxRecentFiles" value="10"/>
+  <property key="recentFile" value="C:\Users\Kai_Xtr\Downloads\RomHacking\Super Mario Bros (E).nes"/>
+  <property key="recentFile" value="C:\Users\Kai_Xtr\Documents\Hackrom\Super Mario World (U) [!].smc"/>
+  <property key="recentFile" value="C:\Users\Kai_Xtr\Downloads\RomHacking\Star Fox.smc"/>
+</settings>

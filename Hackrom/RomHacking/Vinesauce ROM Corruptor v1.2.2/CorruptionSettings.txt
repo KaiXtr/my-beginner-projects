@@ -1,0 +1,27 @@
+ROM.FileName=Super Killer  Bros.nes
+ROM.FileLength=A010
+ROM.Hash=N6crbVdm0BnhylzQGKmso9fKXIFbu+nlEvk5yjKCyRM=
+checkBox_EnableNESCPUJamProtection.Checked=False
+checkBox_TextReplacementEnable.Checked=False
+checkBox_TextUseByteCorruptionRange.Checked=False
+textBox_AnchorWords.Text=NINTENDO
+textBox_TextToReplace.Text=
+textBox_ReplaceWith.Text=
+checkBox_ColorReplacementEnable.Checked=False
+checkBox_ColorUseByteCorruptionRange.Checked=False
+textBox_ColorsToReplace.Text=
+textBox_ReplaceWithColors.Text=
+checkBox_ByteCorruptionEnable.Checked=True
+checkBox_AutoEnd.Checked=False
+radioButton_AddXToByte.Checked=True
+radioButton_ShiftRightXBytes.Checked=False
+radioButton_ReplaceByteXwithY.Checked=False
+textBox_StartByte.Text=0
+textBox_EndByte.Text=16
+textBox_Increment.Text=0
+textBox_EveryNBytes.Text=1
+textBox_AddXToByte.Text=0
+textBox_ShiftRightXBytes.Text=0
+textBox_ReplaceByteXwithYByteX.Text=0
+textBox_ReplaceByteXwithYByteY.Text=0
+checkBox_QueueEnable.Checked=False
