@@ -56,7 +56,7 @@ Projects info by time of creation:
   
 * PYTHON/TABELA PERIÓDICA
   
-  It's basically the periodic table ( or what it was designed to be ).
+  It's basically the periodic table ( or what it was suposed to be ).
 
 * BASIC
 
@@ -72,6 +72,7 @@ Projects info by time of creation:
   android cellphone.
   
 * PYTHON/RIMAS
+
   I was learning to make kivy applications at the time, you
   input a simple word and the app finds the words that better
   ryhme with it.
