@@ -174,7 +174,7 @@ class Ideapad(App):
 		if platform.system()=='Windows':
 			self.path='C:\\Users\\'+getpass.getuser()+'\\Triskelion\\Notes'
 		else:
-			self.path='\\sdcard\\Triskelion\\Notes'
+			self.path=os.path.dirname(os.path.realpath(__file__)) + '/Triskelion/Notes'
 
 		for fil in os.listdir(self.path):
 			self.notes.append(str(fil))
@@ -199,7 +199,7 @@ class Ideapad(App):
 		self.bx=Button(text='X', on_press=self.delete)
 		self.bs=Button(text='√', on_press=self.save)
 		self.bn=Button(text='>', on_press=self.next)
-		self.tx=TextInput(font_name='arial')
+		self.tx=TextInput()
 
 		self.gr=GridLayout(rows=2)
 		self.sg=GridLayout(cols=5, height=30, size_hint=(1,None))

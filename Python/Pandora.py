@@ -30,8 +30,8 @@ day=''
 pygame.mixer.init()
 key=pyowm.OWM('bdc0f2865f7102fbdaa6476eff88b0e7')
 #plw=key.weather_at_place(place)
-plw=key.weather_at_place('Xerém, BR')
-wth=plw.get_weather()
+#plw=key.weather_at_place('Xerém, BR')
+#wth=plw.get_weather()
 
 def outpr(p=None):
 	if p==None: p=''
@@ -45,8 +45,8 @@ class AlarmCheck(Thread):
 					print(mname+", It's Time to "+i[0])
 
 #DATA LOAD
-os.system('cls')
-data=open('C:\\Users\\'+getpass.getuser()+'\\Triskelion\\PandoraData.db','r')
+os.system('clear')
+data=open('PandoraData.db','r')
 searcher=data.readline()[0:-1]
 songplay=data.readline()[0:-1]
 email=data.readline()[0:-1]
@@ -56,7 +56,7 @@ pname=data.readline()[0:-1]
 place=data.readline()[0:-1]
 age=data.readline()[0:-1]
 data.close()
-data=open('C:\\Users\\'+getpass.getuser()+'\\Triskelion\\Reminders.db','r')
+data=open('Reminders.db','r')
 while True:
 	n=data.readline()[0:-1]
 	if n.startswith('END'):
@@ -64,7 +64,7 @@ while True:
 	reminders.append(n)
 data.close()
 ind=0
-data=open('C:\\Users\\'+getpass.getuser()+'\\Triskelion\\Contacts.db','r')
+data=open('Contacts.db','r')
 while True:
 	n=data.readline()[0:-1]
 	if n.startswith('END'):
@@ -77,7 +77,7 @@ while True:
 		ind+=1
 data.close()
 ind=0
-data=open('C:\\Users\\'+getpass.getuser()+'\\Triskelion\\Tasks.db','r')
+data=open('Tasks.db','r')
 while True:
 	n=data.readline()[0:-1]
 	if n.startswith('END'):
@@ -90,7 +90,7 @@ while True:
 		ind+=1
 data.close()
 ind=0
-data=open('C:\\Users\\'+getpass.getuser()+'\\Triskelion\\Wishlist.db','r')
+data=open('Wishlist.db','r')
 while True:
 	n=data.readline()[0:-1]
 	if n.startswith('END'):
@@ -103,7 +103,7 @@ while True:
 		ind+=1
 data.close()
 ind=0
-data=open('C:\\Users\\'+getpass.getuser()+'\\Triskelion\\Alarms.db','r')
+data=open('Alarms.db','r')
 while True:
 	n=data.readline()[0:-1]
 	if n.startswith('END'):
@@ -116,7 +116,7 @@ while True:
 		ind+=1
 data.close()
 ind=0
-data=open('C:\\Users\\'+getpass.getuser()+'\\Triskelion\\Events.db','r')
+data=open('Events.db','r')
 while True:
 	n=data.readline()[0:-1]
 	if n.startswith('END'):
@@ -131,7 +131,7 @@ while True:
 		ind+=1
 data.close()
 ind=0
-data=open('C:\\Users\\'+getpass.getuser()+'\\Triskelion\\Notes.db','r')
+data=open('Notes.db','r')
 while True:
 	n=data.readline()
 	if n.startswith('<<END>>'):
@@ -143,7 +143,7 @@ while True:
 		notes[ind]+=n
 data.close()
 ind=0
-data=open('C:\\Users\\'+getpass.getuser()+'\\Triskelion\\Passwords.db','r')
+data=open('Passwords.db','r')
 while True:
 	n=data.readline()
 	if n=='<<END>>\n':break
@@ -376,7 +376,7 @@ while True:
 		print("-Get sports score\n-Get the last movie sessions\n")
 
 	if re.search(r"Clear", ask, re.I):
-		os.system("cls")
+		os.system("clear")
 
 	#ORGANIZATION COMMANDS
 	if re.search(r"When is", ask, re.I):
@@ -734,4 +734,4 @@ data.write(place+'\n')
 data.write(age+'\n')
 data.close()
 
-os.system('cls')
+os.system('clear')

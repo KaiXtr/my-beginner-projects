@@ -1067,7 +1067,7 @@ def savecolors():
 		if i.endswith('\n')==True:
 			i=i[0:-1]
 	file=open("CalculatorColors.db",'w')
-	file.write(b+"\n"+n+"\n"+o+"\n"+m+"\n"+na+"\n"+oa+"\n"+ma)
+	file.write(b+"\n"+n+"\n"+o+"\n"+m+"\n"+na+"\n"+oa+"\n"+ma+"\n")
 	file.close()
 
 def savedata():
@@ -1107,14 +1107,14 @@ def invert():
 #DADOS SALVOS
 file=open('CalculatorColors.db','r')
 
-b=file.readline()	
-n=file.readline()
-o=file.readline()
-m=file.readline()
+b=file.readline()[0:-1]
+n=file.readline()[0:-1]
+o=file.readline()[0:-1]
+m=file.readline()[0:-1]
 
-na=file.readline()
-oa=file.readline()
-ma=file.readline()
+na=file.readline()[0:-1]
+oa=file.readline()[0:-1]
+ma=file.readline()[0:-1]
 
 file.close()
 
@@ -1122,9 +1122,9 @@ file.close()
 #JANELA
 janela=Tk()
 janela.title("Calculator")
-janela.geometry("207x313+500+300")
+janela.geometry("280x330+500+300")
 #janela.resizable(0,0)
-janela.iconbitmap(default='PI.ico')
+#janela.iconbitmap(default='PI.ico')
 janela["bg"]=b
 
 #MENUS
@@ -1208,7 +1208,7 @@ bt9=Button(f_num, text="9", width=5, height=2, bg=n, activebackground=na, comman
 bt0=Button(f_num, text="0", width=5, height=2, bg=n, activebackground=na, command=lambda:number(0))
 
 #PONTO
-img=PhotoImage(file='Button.png')
+# img=PhotoImage(file='Button.png')
 btp=Button(f_num, text=".", width=5, height=2 ,command=dot, bg=n, activebackground=na)
 
 #OPERAÇÕES BÁSICAS

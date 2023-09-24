@@ -905,7 +905,7 @@ def savedata():
 janela=Tk()
 janela.title('Notepad')
 janela.geometry("800x400+300+300")
-janela.iconbitmap(default='pencil.ico')
+# janela.iconbitmap(default='pencil.ico')
 fn=Font(family="Consolas", size=12, weight="normal")
 
 #Barras
@@ -1009,7 +1009,7 @@ fm=Menu(fnt, tearoff=0)
 fnt["menu"]=fm
 
 fonts=[]
-for f in OS.listdir('C:\Windows\Fonts'):
+for f in OS.listdir('/usr/share/fonts'):
     if f.endswith(".ttf")==True:
         f=f[0:-4]
         f=f.capitalize()
@@ -1017,7 +1017,8 @@ for f in OS.listdir('C:\Windows\Fonts'):
         fn=Font(family=str(f))
         val=fn
         fm.add_command(label=f, command=lambda j=f:fontc(j))
-fnt["text"]=fonts[0]
+if len(fonts) > 0:
+    fnt["text"]=fonts[0]
 
 siz=Menubutton(tools, text=10, relief="groove")
 sm=Menu(siz, tearoff=0)

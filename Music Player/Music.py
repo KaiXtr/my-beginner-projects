@@ -110,13 +110,13 @@ def updatelabel():
     clen=0
     tlen=0
     while i<slen:
-    	s+=1
-    	if s==60:
-    		m+=1
-    		s=0
-    	i+=1
+        s+=1
+        if s==60:
+            m+=1
+            s=0
+        i+=1
     if s<10:
-    	s="0"+str(s)
+        s="0"+str(s)
     curtime["text"]="0:00"
     lentime["text"]=str(m)+":"+str(s)
     root.title(tracks[index]+' - Jukebox')
@@ -124,9 +124,9 @@ def updatelabel():
     a.set(artists[index])
     l.set(albums[index])
     if len(tracks[index])>20:
-    	l_track['font']='arial 13 bold'
+        l_track['font']='arial 13 bold'
     else:
-    	l_track['font']='arial 15 bold'
+        l_track['font']='arial 15 bold'
 
 def bprevious(event):
 	global index
@@ -346,7 +346,7 @@ def directory():
 		directory()
 
 	songs.sort()
-	tracks.sort()
+	# tracks.sort()
 	playnow.sort()
 	songs.reverse()
 	tracks.reverse()

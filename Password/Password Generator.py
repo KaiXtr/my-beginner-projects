@@ -147,8 +147,8 @@ class MainScreen(App):
 		self.sps.add_widget(Button(text='<', on_release=self.back, size_hint_y=None, height=30))
 		self.scl=ScrollView(size_hint_y=None, size=(Window.width, Window.height))
 		self.box=GridLayout(cols=1, size_hint_y=None, height=80)
-
-		fileopen=open('C:\\Users\\'+getpass.getuser()+'\\Triskelion\\Passwords.db','r')
+		
+		fileopen=open('Passwords.db','r')
 		while True:
 			n=fileopen.readline()
 			if n=='<<END>>\n':break

@@ -34,3 +34,4 @@ img=[]
 for file in os.pathdir('/sdcard/Meteoro Bot/'):
 	if file.endswith('.jpg'):img.append(file)
 	
+'''

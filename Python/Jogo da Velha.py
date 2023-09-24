@@ -614,10 +614,10 @@ def lang(lg):
 #Window
 root=Tk()
 root.title("Tic Tac Toe")
-root.geometry("200x200+500+300")
-root.iconbitmap(default='Tic.ico')
+root.geometry("250x250+500+300")
+# root.iconbitmap(default='Tic.ico')
 root.resizable(0,0)
-root.attributes("-toolwindow")
+# root.attributes("-toolwindow")
 
 #Menus
 bar=Menu(root)
